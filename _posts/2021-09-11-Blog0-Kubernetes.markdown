@@ -14,17 +14,17 @@ In order to make sure there is no downtime for containers that run applications,
 with a framework to run distributed systems resiliently. This means it takes care of failover and scaling, and 
 provides deployment patterns for your applications.
 
-###A few examples of what Kubernetes provides you with:
+### A few examples of what Kubernetes provides you with:
 - Service discovery and load balancing
 - Storage Orchestration
 - Automated rollouts and rollbacks
 
-##What Kubernetes is not
+## What Kubernetes is not
 It is important to note that Kubernetes is not a traditional Platform as a Service System `Paas`, because it operates at 
 the container level rather than the hardware level. This also means Kubernetes `does not deploy source code` or build your application.
 It also does not dictate logging, monitoring or alerting solutions, and does not provide nor mandate a configuration language/system.
 
-###Learn more about Kubernetes
+### Learn more about Kubernetes
 There is quite a bit of info regarding Kubernetes and deployment strategies, which can be found on [Kubernetes.io][kubernetes-io].
 They also have a [Documentation][documentation-io] page which includes training, setting up a K8s cluster, and looking up reference information. Stay tuned for more posts on Kubernetes!
 
