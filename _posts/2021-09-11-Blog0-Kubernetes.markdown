@@ -9,25 +9,26 @@ Kubernetes is a portable, extensible, and open-source platform which allows mana
 services. These services facilitiate both declarative configuration and automation, as Kubernetes has a rapidly growing
 ecosystem. Kubernetes was open-soruced by Google in 2014, and is now maintained by the Cloud Native Computing Foundation.
 
+## What can you do with Kubernetes
+In order to make sure there is no downtime for containers that run applications, Kubernetes provides users 
+with a framework to run distributed systems resiliently. This means it takes care of failover and scaling, and 
+provides deployment patterns for your applications.
 
-Jekyll requires blog post files to be named according to the following format:
+###A few examples of what Kubernetes provides you with:
+- Service discovery and load balancing
+- Storage Orchestration
+- Automated rollouts and rollbacks
 
-`YEAR-MONTH-DAY-title.MARKUP`
+##What Kubernetes is not
+It is important to note that Kubernetes is not a traditional Platform as a Service System `Paas`, because it operates at 
+the container level rather than the hardware level. This also means Kubernetes `does not deploy source code` or build your application.
+It also does not dictate logging, monitoring or alerting solutions, and does not provide nor mandate a configuration language/system.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+###Learn more about Kubernetes
+There is quite a bit of info regarding Kubernetes and deployment strategies, which can be found on [Kubernetes.io][kubernetes-io].
+They also have a [Documentation][documentation-io] page which includes training, setting up a K8s cluster, and looking up reference information. Stay tuned for more posts on Kubernetes!
 
-Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[kubernetes-io]: https://kubernetes.io/
+[documentation-io]: https://kubernetes.io/docs/home/ 
