@@ -40,7 +40,7 @@ more control on workloads due to its high volume defaults.
 ## Solve Problems with Kubernetes | Debugging
 Troubleshooting in Kubernetes is efficient due to `Debugging Pods` which are specifically made to debug workloads in Kubernetes containers.
 The first step in troubleshooting is triage, where you have the options of `Debugging Pods`, `Debugging Replication Controllers`, and `Debugging Services`. 
-This [Troubleshoot.io][troubleshoot-io-io] documentation from Kubernetes explains troubleshooting methods, and the most effective methods to solve problems 
+This [Troubleshoot.io][troubleshoot-io] documentation from Kubernetes explains troubleshooting methods, and the most effective methods to solve problems 
 with Kubernetes containers.
 
 It's important to know that when the triage of troubleshooting defaults do not work, there is also a Debugging Service Document to make sure that
