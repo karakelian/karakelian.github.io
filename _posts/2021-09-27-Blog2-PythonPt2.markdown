@@ -4,50 +4,33 @@ title:  "Blog 2 - Python pt. 2"
 date:   2021-09-27 10:33:29 -0700
 categories: Tech
 ---
-## In Depth Python
-Our last blog was an introduction to Python and its many features, which have made it one of the most popular user-friendly programming languages. In this 2nd Python Blog, we will touch upon various core concepts that make full use of Python's available features. 
-<img src="https://miro.medium.com/max/500/1*vhBCH7FrI1qKEVToZBXdfQ.png" alt="MSC" width="460" height="345">
+## Python: Learning Core Concepts
+Our last blog was an introduction to Python and its many features, which have made it one of the most popular user-friendly programming languages. In this 2nd Python Blog, we will touch upon various core concepts that make full use of Python's available features. We will review variables & data types, get input from users, and learn how to create functions. If one has experience with other programming languages such as C++ or Java, they will realize just how similar and simple Python syntax is. So without further ado, lets dive deep into our first core concept which is variables and data types!
+<img src="https://ourcodeworld.com/public-media/articles/articleocw-5c65fbda1ea05.jpg" alt="MSC" width="460" height="345">
 
-## What Is Python Used For?
-Like most programming languages, Python is commonly used for website and software development, as well as data visualization and analysis. Python is
-also used to implement Task Automation, and this makes the programming language an obvious choice for not only programmers, but data analysts such as
-scientists, researchers, and etc. As far as Data Analysis and Machine Learning are concerned, Python provides its users with the ability to use the 
-programming language to calculate elaborate statistical calculations. Data visualization in Python is often implemented through graphs, 3D plots and histograms, 
-which can be accessed through the large variety of libraries that Python offers.
+### The Main Data Types/Variables In Python
+- Text Type: str
+- Numeric Type: int, float, complex
+- Sequence Types: list, tuple, range
+- Boolean Type: bool
 
-Web developers often employ Python to develop the back end of their applications due to its user-friendly interface and compatibility. URL Routing and
-sending data back and forth from servers are just some of the features web developers employ with Python. Scripting is also a large reason many
-non-programmers might use Python because it be used to easily write scripts to rename files, download/upload files at a specific date/time and etc. It is
-also important to note that this programming language is a powerful resource is software testing. Whenever developers are testing software prototypes, they
-can employ Python for tasks that include bug tracking, build control, and overall automated testing for new applications.
+## Data Types/Variables:
+It is important to note that there are also mapping, set and binary types available in Python, but we will not cover those in this blog. Now that we are familiar with the various built-in data types available on Python, lets learn how to define them in code. Thankfully, Python's user friendly interface allows users to create data types and variables by assigning them to a variable, or specifying a data type. For example, we will create the variable `x` and assign the string `Hello World` to it. We can do this in two ways in Python. The first way is just to create a variable x and assign the string: `x = "Hello World"`. The second way, is to specify the data type you want to be associated with the variable x: `x = str("Hello World")` This syntax applies to all forms of data types in Python, with the following example defining an integer with the value of 20: `x = int(20)`. Now that we've touched upon data types and variables, lets move onto how to ask users for input and store those values in variables.
 
-### Reasons for Pythons Popularity:
-- User Friendly (Especially for beginners)
-- Versatility
-- Open Source
-- A large and active community (Solution Finding & Helpful Resources)
-- Simple Syntax
+## Get User Input 
+Taking input in Python is an easy task and can be achieved using a command name that is conveniently called `input()` By using the input() command, we can define a field-message that will be displayed to the user and will prompt them for input. We will then store that input in our own created variable. For this example, we will create a variable called `name` and ask the user to enter their first name. `name = input("Please Enter Your Name: ")` Notice that just in that one line of code, we were able to ask the user for input, provide a message to know what they should input, and store the inputted data into a variable. If we wanted to display the output back to the user to make sure they typed it correctly, we can use the `print` function with the name of the stored variable `name` inside of it. In our case, it would be: `print(name)`. Although this is a very brief tutorial on getting user input, Python's simple interface proves that you don't need long lines of code just to ask a user to input data. The image below also shows an example of getting user input and printing it back, where the top portion of the image is the command line and the bottom portion is the screen the users would see and interact with.
+<img src="https://www.askpython.com/wp-content/uploads/2019/07/python-user-input.png" alt="MSC" width="460" height="345">
 
-## Problems with Python | Common Issues
-Although Python has proven to be a very useful and favorable resource as a programming language, there are some features that users and developers alike
-may have issues with. One of the most common issues that arise with users that learn Python after already having knowledge with other languages is the `print` command. In Python, any time there is text to be printed out to the console, `print` is used to display output, along with results from computation, lists, coordinates, and etc. For many programmers that have knowledge is languages like C++ and Java for example, printing out text might seem very foreign in this language because there is no need for `cout<<` or `system.out.print`. Rather, the simple `print` feature creates simple syntax, but can be confusing for users as many fields within this feature also specify return values for calculations. This means that if a user wanted to print out a message along with calculations from variables, the syntax would be the following: 
-`print("Hello " + name)` ; where name is a result from user. 
-The `+` symbol would append additional text to the printed output.
+## Get User Input | Common Issues
+Due to the large array of data types available in Python, most issues with getting input from users can arise because programmers may assume data for strings and integers get stored the same way. Just like how we specify data types when creating variables, we must always specify what data type we expect from a user input. For example, if you are creating a user input prompt to ask for age, you want to declare the input as a `int` or `float`, rather than a `str`. If input gets stored as a str, any calculations made with the string will result in an error. For this reason, its important to make sure data types are properly assigned so errors don't arise later on in the program.
 
-Another common issue is that Python does not have very specific error messages. Certain programming language have this issue as creating clear and understandable error messages in compilers is not a simple task. Still, Python makes this feature a bit more difficult as error messages are dumped in a large clutter of text, making it hard to read and understand what went wrong where. Most of the time, instead of giving out quality error messages, the program will just return the last line of where the code was able to parse/run. This means that using breakpoints is necessary to debug a rather long block of source-text, which can be a long and arduous process for programmers.
+## Functions In Python
+A function is a block of code which runs when it is called, and in Python functions are created using the `dev` command. Following the `dev` command we can assign a name to our function and enclose it with parenthesis. For example, a function called calculator can be defined by: `dev calculator():` Notice how we must add a colon after the enclosed parenthesis to define the function. Anything that is entered below that will be part of the function until a blank line separates it. Without going too in depth, we can expand the parenthesis in our function name to add data values to be passed in the function. For example, if you want to pass over the numbers 5 and 6 to calculator, we can define it as: `dev calculator(5,6):`, assuming the numbers have be declared as an int or float. Finally, the image below displays the basic template of how a function is created and called. `def func1()` is how we create the function and name it, and inside is a print command with text. Outside of the function, we run the function by calling it `func1()` The bottom portion of the image displays the result of the function after running.
+<img src="https://cdn.guru99.com/images/Pythonnew/Python10.1.png" alt="MSC" width="460" height="345">
 
-## Solve Problems with Python | Debugging
-Due to the large community of its users, Python has a great Official Community Forum with different native languages to help in direct debugging and troubleshooting. The [Forums][forum-io] page has great information on how to post a question and interact with users on the community who may have possible solutions and tips. 
-Python also has various conferences and workshops that offer new users a way to gather together and review new and recent implementations in the programming language that can benefit each other. The [Workshops][workshops-io] page offers various global locations that support virtual or in-person gatherings, as well as subscriptions to the Python Conference Mailing Lists.
-
-## What Companies Use Python?
-If you're wondering if it's worth learning Python for future job applications, it's important to note that Facebook, Google, and Netflix are just some of the corporations that employ this programming language in their workspace. Whether it'd be a Developer, Data Scientist, or Software Engineer, Python is a great resource as it is a general-purpose language that is used across all industries and fields. 
-
-### Learn more about Python
-To learn more about Python, and how to install and get running on your personal machine, visit [Python][python-io] to download and get started. You can learn more about the fundamentals of Python, research specific documentation, and hear success stories and recent news on their main site. This blog will be the first of many regarding this programming language, and in future blogs we will be diving deeper into coding with the programming language. Stay tuned!
-
+### Learn More Python Concepts
+To learn more about Core Concepts In Python, visit [Python][python-io] to access some online tutorials. You can learn more about the fundamentals of Python, research specific documentation, and get in touch with users that may be learning the same topics as you. Websites such as [W3Schools][w3-io] also have free Python tutorials that touch upon many of the concepts reviewed in the blog! This blog will be the last of its kind regarding Python for now, but future blogs may relate to Python and some of its concepts. Stay tuned for a new blog topic next week!
 
 
 [python-io]: https://www.python.org/
-[workshops-io]: https://www.python.org/community/workshops/
-[forum-io]: https://www.python.org/community/forums/ 
+[w3-io]: https://www.w3schools.com/python/ 
