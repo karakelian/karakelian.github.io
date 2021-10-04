@@ -6,6 +6,7 @@ categories: Tech
 ---
 ## Golang: The Programming Language
 Go is a compiled programming language that is statically typed and designed at Google. This language is syntactically similar to C, but includes other various features such as structural typing, memory safety and etc. Although the programming language is named `Go`, it is often referred to as `Golang` because of its domain name `goland.org`. Before we jump into learning more about this programming language, it is important to note that there are two major implementations of Go. The first is Google's self-hosting toolchain which targets various O.S.'s along with WebAssembly. The second implementation is gofrontend, which is a frontend used for other compilers. In this blog, we are going to go the Design, Style and Tools within Golang, and provide examples using the programming language itself. Let's jump right into the Design of Go!
+<br/><br/>
 <img src="https://miro.medium.com/max/2000/1*8bPiDNL1K1ZdK9O_T5IVKw.png" alt="MSC" width="460" height="345">
 
 ## Go: Design
@@ -23,6 +24,7 @@ The programmers that created Go but significant effort in influencing the style 
 - `go install`: Install is used to install and retrieve remote packages
 - `go vet`: Vet is a static analyzer which looks for any errors in the code
 - `go run`: Run is a shortcut which builds and executes code
+<br/>
 Other tools that are not as commonly used are `godoc`, `gorename` and `go generate`, which display documentation, rename variables and invoke code generators respectively
 <img src="https://www.tutorialandexample.com/wp-content/uploads/2021/02/Tools-for-GoLang.png" alt="MSC" width="460" height="345">
 
@@ -41,7 +43,7 @@ This last example of code below also shows the import of the `go fmt` tool, alon
 <img src="https://miro.medium.com/max/1400/1*1SVdQfxQ3Ku3iHpSswm9rw.png" alt="MSC" width="600" height="345">
 
 ### Learn More About Golang
-To learn more about the programming language Go, visit [Golang][golang-io] to access documents, packages and example projects coded in Go. You can learn more about the fundamentals of Go, research specific documentation, and get in touch with teams of users. Just like any programming community, Go offers wide support through their Go [Forum][forum-io-io]. This gives users access to their Discord, Slack, and IRC Channels, along with other features that can better help and assist in your learning with the programming language. 
+To learn more about the programming language Go, visit [Golang][golang-io] to access documents, packages and example projects coded in Go. You can learn more about the fundamentals of Go, research specific documentation, and get in touch with teams of users. Just like any programming community, Go offers wide support through their Go [Forum][forum-io]. This gives users access to their Discord, Slack, and IRC Channels, along with other features that can better help and assist in your learning with the programming language. 
 <br/><br/>
 Stay tuned for a new blog next week!
 
