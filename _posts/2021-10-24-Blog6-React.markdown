@@ -7,7 +7,7 @@ categories: Tech
 ## React: An Introduction
 Released in May of 2013, the free open-source and front-end JavaScript library known as React was made available to the public. This open-source library was released with its initial intentions of building user interfaces, along with other user interface components. Nowadays, React is maintained by Facebook and a large community of companies individual developers. React is a library that is most often used in single-page development and even mobile applications. Since React applications still require additional libraries to be installed for routing, its main concern is still to render state management to the Document Object Model. I chose to cover React in this blog because there is a high probability it will be used in our Senior Design Group Project, and I wanted to learn more about it as soon as I could. To briefly cover React in this blog, I will be going over its Components/Functions, React Hooks, and JSX.
 <br/>
-<img src="https://miro.medium.com/max/770/1*dhGM4qRCvFHeDrICOXUJmw.png" alt="MSC" width="460" height="345">
+<img src="https://miro.medium.com/max/770/1*dhGM4qRCvFHeDrICOXUJmw.png" alt="MSC" width="460" height="200">
 
 ## React Components/Functions 
 Since React code is made of entities that are called components, its important to note that these components can be rendered in the document object model to a particular element. This is possible by using the React DOM library, and allows developers using React to pass values known as "props" when rendering a component. There are two primary methods of declaring components in React, and they are labeled as class-based components and function components. Function components are those which are declared with a function that will return some JSX, which is also known as JavaScript XML. The example below shows proper React syntax in a Function component:
@@ -22,9 +22,6 @@ Class-based components are those which are declared using ES6 classes, which ref
 <br/>`    return (`
 <br/>`     <ChildComponent color={this.state.color} />`
 <br/>`     );`
-<br/>`   }`
-<br/>`  }`
-<br/>
 
 
 ### React Hooks
@@ -38,7 +35,7 @@ Hooks in React are essentially functions which allow developers to "hook into" R
 <br/>
 These hooks are documented in the Hooks API Reference as being the most used. They serve primary for controlling state and side effects respectively in React. The example provided below shows a React Hook known as `useState`:
 <br/><br/>
-<img src="https://sebhastian.com/react-hooks-introduction/feature-image.png?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-2" alt="MSC" width="460" height="345">
+<img src="https://sebhastian.com/react-hooks-introduction/feature-image.png?ezimgfmt=ng%3Awebp%2Fngcb1%2Frs%3Adevice%2Frscb1-2" alt="MSC" width="460" height="250">
 <br/>
 
 ## JSX
@@ -51,8 +48,11 @@ Although React is a highly used open-source JavaScript library, there are disadv
 
 ### Learn More About React
 You can visit [React][React-io] to learn more about React and see the important documents on its implementations and advanced concepts. React has a large and active [Community][Community-io] that allows new users to learn through skilled developers that employ React in their projects. To get started with React, their [Tutorials][Tutorial-io] are very beneficial to new learners and offer a free way to gain insight into React. 
+
 <br/>
+
 Stay tuned for a new blog next week!
+
 [JavaPoint-io]: https://www.javatpoint.com/pros-and-cons-of-react
 [React-io]: https://reactjs.org/ 
 [Community-io]: https://reactjs.org/community/support.html 
