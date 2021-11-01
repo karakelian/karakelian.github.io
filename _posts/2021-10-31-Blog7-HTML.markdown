@@ -6,14 +6,15 @@ categories: Tech
 ---
 ## An Introduction to HTML
 The HyperText Markup Language, or better known as HTML, is the standard markup language for web browser displayed documents. HTML documents can be obtained from a web server or local storage, and are sent to Web Browsers to display the documents in multimedia web pages. HTML is commonly known for its .html and .htm extension types, and its Uniform Type Identifier (UTI) is public.html. The elements within HTML are the building blocks which construct the web pages with images and other objects, which can also be interactive forms that are embedded on the rendered page. I chose to do a blog post about HTML this week because we have constantly been learning how to deploy HTML websites in CIT384 (Web Hosting & Design) and CIT480 (Senior Design Project). In this blog, its also important to note that HTML can embed programs written in a scripting language such as JavaScript, and can also be assisted by technologies like CSS (Cascading Style Sheets). To learn more about HTML in this blog, were going to review its history, and then explore its markup (elements) and delivery methods.
-<br/>
+<br/><br/>
 <img src="https://www.w3docs.com/uploads/media/default/0001/05/805cddb75d8fdc035886bc8d78487eef8b3845bb.png" alt="MSC" width="460" height="200">
+<br/>
 
 ## HTML: Its History and Origin
 Physicist Tim Berners-Lee first wrote a memo proposing an Internet-based hypertext system in 1989, and in 1991 the first publicly available description of HTML was recorded in a document called `HTML Tags`. In this document, there was a description of 18 elements which comprised of the initial and simple design of HTML. These descriptions were heavily influenced by SGMLguid which is a Standard Generalized Markup Language. Tim Berners-Lee considered HTML to be an application of SGML, but it is formally defined by the IETF 1993 publication to be known as the `HyperText Markup Language`. The HTML timeline follows HTML2 - HTML5 (current version). Since then, a lot of changes have been made and proposed recommendations are listed on HTML's main source directory. On May 2019, the W3C announced that WHATWG would be the only publisher for DOM and HTML standards. 
-<br/>
+<br/><br/>
 <img src="https://imgs.developpaper.com/imgs/1989606-20200914191010937-1888109690.png" alt="MSC" width="460" height="200">
-
+<br/>
 
 ### Markup
 Markup in HTML refers to many different and key components which include tags, character-based data types, entity references, and character references. HTML tags are paired in `<h1>` and `<h2>`, but some of these may represent empty elements and remain unpaired. `<img>` is an example, as you do not need to close the ending brackets with the same tag itself. Below are what makeup the entirety of HTML's markup. Although we will not cover all of these markup components in this blog, they will be touched upon in future blogs regarding html.
@@ -28,13 +29,13 @@ Markup in HTML refers to many different and key components which include tags, c
 HTML documents can be delivered through the most common means much like any other file, but they are often delivered by email or by HTTP from a web server. In HTTP, the World Wide Web (WWW) is composed of HTML documents, but HTTP is used to serve images in addition to other content, images, sound and HTML. In order to allow web browsers to check and handle each document, HTML is transmitted along with other information. The meta data inside these HTML files contain the MIME type, which refers to `text/html` or `application/xhtml+xml` files. 
 
 ## Common Issues with HTML
-HTML has been around for a very long time, but it doesn't mean web developers don't share complaints regarding the hypertext language. The most common issue with HTML is that it has a missing or incorrect DOCTYPE. The DOCTYPE essentially tells web browsers what version of HTML a page is using, and this means the DOCTYPE file should always be the first line of the HTML document. It is also important to note that it is Case Sensitive, and may disrupt the HTML file as a whole if the HTML version is not read properly. Another common issue with HTML is missing character encoding, which refers to the character sets in HTML that might be missing from a page. For example, if a page is written in Mandarin, the character encoding in the HTML document tells the user agent what type of data to read and display, but if it is missing the encoding it will not be able to translate it to the users default HTML Character Encoding. There are various HTML issues that are still talked about today, and one of them is hosted on California State University, Long Beach, regarding [12 Common HTML Mistakes][htmlreview-io]
+HTML has been around for a very long time, but it doesn't mean web developers don't share complaints regarding the hypertext language. The most common issue with HTML is that it has a missing or incorrect DOCTYPE. The DOCTYPE essentially tells web browsers what version of HTML a page is using, and this means the DOCTYPE file should always be the first line of the HTML document. It is also important to note that it is Case Sensitive, and may disrupt the HTML file as a whole if the HTML version is not read properly. Another common issue with HTML is missing character encoding, which refers to the character sets in HTML that might be missing from a page. For example, if a page is written in Mandarin, the character encoding in the HTML document tells the user agent what type of data to read and display, but if it is missing the encoding it will not be able to translate it to the users default HTML Character Encoding. There are various HTML issues that are still talked about today, and one of them is hosted on California State University, Long Beach, regarding [12 Common HTML Mistakes.][htmlreview-io]
 <br/><br/>
 <img src="https://static.jobdone.net/p_sp/images_staging/4142/fix-all-html-css-javascript-issues-bugs-and-also-add-new-feature-OLsLu7abTa.jpg" alt="MSC" width="460" height="250">
 
 ### Learn More About HTML
 There are many sites that offer fast and efficient ways for new users to learn HTML, and [W3Schools][w3-io] is a great way to start. If you have any questions and want to reach a community that offers experienced HTML users, visit [HTMLForums][forum-io] and get connected!
-<br/>
+<br/><br/>
 Stay tuned for a more in-depth blog posted about HTML next week!
 
 [htmlreview-io]: https://web.csulb.edu/divisions/students/dss/accessibility/web/webaim-12comm.html
