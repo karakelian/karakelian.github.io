@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "Blog 8 - CSS"
+date:   2021-11-10 2:15:29 -0700
+categories: Tech
+---
+## An Introduction to CSS
+CSS, also known as Cascading Style Sheets, is a style sheet language which is used for describing the presentation of a document that is written in a markup language. This includes HTML, which is the blog topic we covered last week. For this reason, it felt imperative to cover CSS as it goes hand-in-hand with HTML implementations on a webpage. It is important to note that CSS is essentially a cornerstone technology, along with JavaScript and HTML on the World Wide Web. CSS includes the design method in which users can enable separation of content including various fonts, colors and overall layout. The .css file type also reduces complexity in structural content and allows it to be cached to improve page loading when formatting. In order to review CSS today, we will be going over its Syntax, Limitations and Standardization.
+<br/><br/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="MSC" width="460" height="200">
+<br/>
+
+## Syntax In CSS
+Since CSS employs a relatively simple syntax, it optimizes performance by creating style sheets. Style sheets consist of a list of rules, which rely on a declaration block and one or more selectors. The selectors in CSS declare what part of the markup a style applies to, and they may apply to all elements of a specific type, or elements specified by an attribute. In particular, this includes an `id` and a `class`. Its important to note that Classes and ID's are case-sensitive, and a class can apply to many element instances while an ID may only be applied to a single element.
+<br/>
+When CSS was not available for HTML support, nearly all presentational attributes of HTML were contained within its own markup. This includes all the fonts, element alignments, border sizes, background styles and etc. These had to be explicitly described very often, and for this reason CSS became a very important feature to utilize with HTML. A good example of this is `font color`, where we can see the difference in how HTML was defined before and after CSS.
+<br/>
+Before CSS: `<h1><font color="red">Chapter 1.</font></h1>`
+<br/>
+After CSS:  `<h1 style="color: red;">Chapter 1.</h1>`
+<br/><br/>
+Additionally, to link an HTML Document to CSS, a user can use syntax similar to the code below to place styles in an external CSS File. 
+<br/>
+`<link href="path/to/file.css" rel="stylesheet" type="text/css">`
+
+<img src="https://www.w3schools.com/css/img_selector.gif" alt="MSC" width="460" height="200">
+<br/>
+
+### Limitations
+Limitations have been noted due to the current capabilities of CSS, which include:
+<br/>
+- `Cannot explicitly declare new scope independently of position`
+- `Cannot name rules`
+- `Cannot target specific text without altering markup`
+- `Selectors are unable to ascend`
+<br/><br/>
+CSS does have an expansive community however, and most problems that seemed to persist when CSS was first implemented soon became apparent through its community, which prompted a massive initiative for continuous updates. Some former issues included, but were not limited to:
+<br/>
+- `Lack of column declaration`
+- `Vertical control limitations`
+- `Absence of expressions`
+<br/>
+Still, CSS has plenty of advantages that make it an extremely useful style sheet language, and this is apparent through its site-wide consistency, separation of content from presentation and page reformatting. Through this innovative style sheet language, HTML is still used very frequently today, and CSS provides users with the ability to make their webpages presentable without the extra hassle. CSS also has improved its Bandwidth and Accessibility considerably throughout its initial release.
+
+## Standardization
+To talk about Standardization in CSS, we must refer to CSS frameworks, which are pre-prepared libraries which allow for easier styling of web pages. Using the Cascading Style Sheets Language, frameworks allow for more standard-compliant styling through features such as `Blueprint`, `Bootstrap`, `Materialize`, and `Foundation`. CSS Frameworks are often embedded in an external .css sheet, which may be refrenced in the HTML `<head>`. These frameworks provide ready-made options for laying out and designing the webpage, and although frameworks have already been published, they are still used for protyping. CSS also has Design methodologies which include a common design methodology to keep development teams organized. Some popular methodologies include `OOCSS`, `ACSS`, and many more. 
+<br/><br/>
+<img src="https://www.tekkiwebsolutions.com/wp-content/uploads/Top-CSS-Frameworks.jpg" alt="MSC" width="460" height="250">
+
+### Learn More About CSS
+There are many resources that offer extensive tutorials on how to apply CSS to a markup language, and [W3C][w3-io] has very a very helpful overview to get you started. If you have any questions and want to reach a community that offers experienced CSS users, visit [CSS Forum][forum-io] and get connected!
+<br/><br/>
+Stay tuned for a new blog post next week!
+
+[w3-io]: https://www.w3.org/Style/CSS/Overview.en.html
+[forum-io]: http://www.cssforum.com.pk/ 
+
