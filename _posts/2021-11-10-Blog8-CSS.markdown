@@ -7,7 +7,7 @@ categories: Tech
 ## An Introduction to CSS
 CSS, also known as Cascading Style Sheets, is a style sheet language which is used for describing the presentation of a document that is written in a markup language. This includes HTML, which is the blog topic we covered last week. For this reason, it felt imperative to cover CSS as it goes hand-in-hand with HTML implementations on a webpage. It is important to note that CSS is essentially a cornerstone technology, along with JavaScript and HTML on the World Wide Web. CSS includes the design method in which users can enable separation of content including various fonts, colors and overall layout. The .css file type also reduces complexity in structural content and allows it to be cached to improve page loading when formatting. In order to review CSS today, we will be going over its Syntax, Limitations and Standardization.
 <br/><br/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="MSC" width="300" height="100">
+<img src="https://blog.logrocket.com/wp-content/uploads/2020/06/CSS-3.png" alt="MSC" width="300" height="100">
 <br/>
 
 ## Syntax In CSS
