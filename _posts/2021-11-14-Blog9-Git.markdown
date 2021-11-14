@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Blog 9 - Git"
+date:   2021-11-14 4:15:29 -0700
+categories: Tech
+---
+## What is GIT
+Usually used for coordinating work among developers and programmer, GIT is a software which tracks files and changes within them. This method of collaborative source code development has spawned a new age of efficient sharing amongst developers and programmer in the industry's workspace. Data Integrity and speed are among its most important goals, as well as non-linear workflows which refers to parallel branches which run on different systems. Although we've been using GIT for quite some time in class, we will review its history, design and implementations to get a better understanding of its significance. 
+<br/><br/>
+<img src="https://miro.medium.com/max/910/1*Wjxx83j-qyiNvFBy1yOA1w.jpeg" alt="MSC" width="300" height="100">
+<br/>
+
+## The history of GIT
+Linus Torvalds created GIT in 2005 as a method of development for the Linux Kernel. Other kernel developers also contributed to its initial development, and since then Junio Hamano has been the core maintainer. Much like other distributed version control systems, GIT directories are included with full-fledged repositories that include full version-tracking and completed history. Since its release, GIT has always remained a free and open-source software, and has been distributed through the GPL 2.0. As of today it's last stable and updated release was posted on October 12, 2021.
+<br/><br/>
+In order to create a distributed system that could meet his needs, Linus Torvalds specified that patching should not last longer than three seconds. With this in mind, he also focused on three main aspects while developing git:
+
+- `Include very strong safeguards against corruption, either accidental or malicious`
+- `Support a distributed, BitKeeper-like workflow`
+- `Take Concurrent Versions System (CVS) as an example of what not to do; if in doubt, make the exact opposite decision`
+
+## Design of GIT
+Inspired by `Monotone` and `BitKeeper`, GIT was originally designed so other systems could write front ends. Front ends such as Cogito or StGIT were in mind when GIT was developed as a low-level version control systems so it remained usable directly. However, these conventional approaches were avoided which led to its unique design. To produce a working system in short order, there were many aspects of version control that GIT was approached with in development. This included Distributed Development, Compatibility with Existent Systems and Protocols, Cryptographic History Authentication, and many more. 
+<br/><br/>
+An important part of GIT's design is that it snapshots directory trees of files, but GIT does not explicitly record file revision relationships. Git also implements several merging strategies, which allows a non-default strategy to be selected at a merge time. The traditional three-way merge algorithm is known as a `resolve` strategy, while the default when pulling or merging one branch is referred to as a `recursive` strategy. However, it is important to mention that GIT This leads to some disadvantages of the version control software that many developers have mentioned. 
+<br/><br/>
+<img src="https://i.stack.imgur.com/rd1YL.png" alt="MSC" width="300" height="100">
+<br/>
+
+## Disadvantages of GIT
+Since implicit revision relationships have significant consequences, programmers and developers have mentioned the following as disadvantages of GIT. "It is slightly more costly to examine the change history of one file than the whole project" This refers to the ability to obtain a history of changes affecting a given file. GIT has to walk the entire global history, then determine if a change modified that file. Another disadvantage worth mentioning is that "Renames are handled implicitly rather than explicitly". This refers to a common complaint with CVS which uses the name of a file to identify revision history. This mechanism does not always work, and will often read a file that is renamed with changes as a deletion of the old file. For this reason ,developers can work around this by committing renames and changes separately. 
+
+## Implementation
+Although GIT is primarily developed on Linux, most major operating systems still support it. Windows, macOS, BSD, and Solaris are still compatible with GIT's stable releases. In windows, native builds of GIT are distributed as 32 and 64 bit installers, and the MSYS2 environment still maintains a build of GIT for windows. The JGit implementation is pure Java software library, and is included in the Gerrit code-review tool for the Eclipse IDE. Other implementations include Dulwich, libgit2, JS-GIT and etc.
+<br/><br/>
+<img src="https://www.tekkiwebsolutions.com/wp-content/uploads/Top-CSS-Frameworks.jpg" alt="MSC" width="460" height="250">
+
+### Learn More About GIT
+GIT's main [website][web] has many helpful resources to get you started with downloading, installing and learning GIT. The downloads folder holds GUI clients and binary releases for all major platforms, and the Documentation page has command reference pages, videos, and other material. Get involved with GIT's [community][forum-io] and learn more with external resources!
+<br/><br/>
+Stay tuned for a continued blog post about GIT next week!
+
+[web-io]: https://git-scm.com/
+[forum-io]: https://git-scm.com/community
+
