@@ -7,7 +7,7 @@ categories: Tech
 ## What is GIT
 Usually used for coordinating work among developers and programmer, GIT is a software which tracks files and changes within them. This method of collaborative source code development has spawned a new age of efficient sharing amongst developers and programmer in the industry's workspace. Data Integrity and speed are among its most important goals, as well as non-linear workflows which refers to parallel branches which run on different systems. Although we've been using GIT for quite some time in class, we will review its history, design and implementations to get a better understanding of its significance. 
 <br/><br/>
-<img src="https://miro.medium.com/max/910/1*Wjxx83j-qyiNvFBy1yOA1w.jpeg" alt="MSC" width="300" height="100">
+<img src="https://miro.medium.com/max/910/1*Wjxx83j-qyiNvFBy1yOA1w.jpeg" alt="MSC" width="250" height="100">
 <br/>
 
 ## The history of GIT
@@ -33,12 +33,12 @@ Since implicit revision relationships have significant consequences, programmers
 ## Implementation
 Although GIT is primarily developed on Linux, most major operating systems still support it. Windows, macOS, BSD, and Solaris are still compatible with GIT's stable releases. In windows, native builds of GIT are distributed as 32 and 64 bit installers, and the MSYS2 environment still maintains a build of GIT for windows. The JGit implementation is pure Java software library, and is included in the Gerrit code-review tool for the Eclipse IDE. Other implementations include Dulwich, libgit2, JS-GIT and etc.
 <br/><br/>
-<img src="https://www.tekkiwebsolutions.com/wp-content/uploads/Top-CSS-Frameworks.jpg" alt="MSC" width="460" height="250">
+<img src="https://www.jenkins.io/images/post-images/2020/07-git-plugin-performance-improvement/git-intro.png" alt="MSC" width="460" height="250">
 
 ### Learn More About GIT
-GIT's main [website][web] has many helpful resources to get you started with downloading, installing and learning GIT. The downloads folder holds GUI clients and binary releases for all major platforms, and the Documentation page has command reference pages, videos, and other material. Get involved with GIT's [community][forum-io] and learn more with external resources!
+GIT's main [website][web-io] has many helpful resources to get you started with downloading, installing and learning GIT. The downloads folder holds GUI clients and binary releases for all major platforms, and the Documentation page has command reference pages, videos, and other material. Get involved with GIT's [community][forum-io] and learn more with external resources!
 <br/><br/>
-Stay tuned for a continued blog post about GIT next week!
+Stay tuned for a part 2 blog about GIT next week!
 
 [web-io]: https://git-scm.com/
 [forum-io]: https://git-scm.com/community
