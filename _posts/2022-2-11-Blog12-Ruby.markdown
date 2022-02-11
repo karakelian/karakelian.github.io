@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Blog 12 - Ruby"
+date:   2022-2-11 4:15:29 -0700
+categories: Tech
+---
+## An Introduction to Ruby
+There are many high-level/general purpose programming languages that have been around for a long time because they scale into maintainable code relatively well. Ruby is one of these general-purpose programming languages that support multiple paradigms in programming. Ruby in particular was designed with simplicity as an emphasis, as the creator Yukihiro "Matz" Matsumoto focused on creating aspects that would prosper productivity.   Even in modern implementations, programming languages such as Ruby still have job growth, specifically within projects and developments that require a particular programming language for implementation. Since Ruby is dynamically typed and employs just-in-time compilation with garbage collection, this allows it to support many programming paradigms. This diversity means Ruby also supports object-oriented, procedural and functional programming within its native environment. To learn more about Ruby in this introduction blog, we will briefly cover its history, features, and semantics/philosophy.
+<br/><br/>
+<img src="https://miro.medium.com/max/540/1*7e9D-oPWPIKBe2AQv862aA.png" alt="MSC" width="350" height="200">
+<br/>
+
+## Ruby: History
+Founded by Yukihiro Matsumoto in the mid-1990s, the original idea for Ruby was essentially an object system that resembled "Smalltalk", which was inspired by higher-order functions and related to fundamentals of languages such as Perl. The early release of Ruby was announced in 1995, and this first issue of Ruby already included classes, inheritance, design, mixins, iterators and etc. 
+<br/>
+Timeline of several stable versions of Ruby:
+<br/><br/>
+- `Ruby 1.0: December 25,1996`
+- `Ruby 1.2: December 1998`
+- `Ruby 1.4: August 1999`
+- `Ruby 1.6: September 2000`
+
+## Ruby: Semantics and Philosophy
+Since the fundamental design of Ruby sought to keep the programming language simple to increase productivity and fun, its main philosophy of doing so was through a good user interface. For this reason, Matsumuto designed Ruby with the goal in mind that he himself must enjoy using it. By doing so, he focused on minimizing programmer work and overall confusion and emphasize human design rather than computer needs. The Semantics within Ruby relate to object-oriented design, as every value is an object. This includes classes and instances of types. In Ruby, functions are methods and variables will always hold references to objects. Further levels of semantics within Ruby include methods that are defined at the top level scope. These are often called methods of the Object class, and can be visible in all scopes (also known as a global scope). Additionally, Ruby has support for metaprogramming, reflection and introspection which still makes it a valuable asset today for many programmers as seen by this infographic from 2017 regarding the most in-demand programming languages. 
+<img src="https://miro.medium.com/max/1000/0*wI4ieJMzj70au757.png" alt="MSC" width="350" height="250">
+<br/>
+
+## Ruby: Features
+There are many features embedded within Rubys fundamental design, and they include but are not limited to:
+- `Dynamic Typing and Duck Typing`
+- `Default Arguments`
+- `Garbage Collection`
+- `Strict Boolean Coercion Rules (false/nil)`
+- `Operator Overloading`
+- `Native plug-in API in C`
+- `Just-in-time compilation`
+There are many more features included in Ruby, and Ruby can also leverage a wide set of third-party [libraries][library-io].
+
+## Ruby: Noted Disadvantages
+Some noted disadvantages with Ruby include Runtime Speed and Performance. Many programmers often list Ruby's "slow" runtime speed as a disadvantage when implementing code in projects. Its lack of flexibility  within default modules are another reason why Ruby might not always be used in specific cases, although such frameworks are usually decided ahead of head. There is also a high cost of wrong decisions during the initial stages of Ruby that might increase overall debugging time. Structural deficiencies within Ruby might be hard to debug as they are tightly coupled and dependent on one another. 
+
+### Learn More About Ruby
+To learn more about Ruby visit their [website][web-io] and stay in touch with their latest [news][news-io]. Ruby also offers a wide community and forum that allows programmers and developers to communicate with each other and learn more about Ruby together. 
+<br/><br/>
+Stay tuned for a more in-depth blog about Ruby next week!
+
+[web-io]: https://www.ruby-lang.org/en/
+[news-io]: https://www.ruby-lang.org/en/news/
+[library-io]: https://www.ruby-lang.org/en/libraries/ 
+
