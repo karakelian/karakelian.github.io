@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Blog 13 - Ruby pt.2"
+date:   2022-2-19 5:15:29 -0700
+categories: Tech
+---
+## Ruby: Going In-Depth
+In the last blog we introduced the programming language Ruby, and went over some of its basic features and touched upon its history. In this blog, we will be exploring Ruby more in-depth to highlight its advanced uses in high-level programming. To begin, we should once again state that Ruby is dynamically typed and makes use of just-in-time compilation along with garbage collection. This basic features of Ruby are what allow it to excel beyond general-purpose use. To explore Ruby more in-depth, we will be talking about its Syntax, Implementations and Repositories/Libraries.
+<br/><br/>
+<img src="https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/883249/the-many-shades-of-the-ruby-programming-language-Waldek_Social-fef7586e6302899feab57c8ec7c27303.png" alt="MSC" width="350" height="200">
+<br/>
+
+## Syntax
+The Syntax utilized in Ruby is similar to that of Python and Perl, and the most obvious example resides in the definitions of class and methods. An important part of Ruby's syntax is that it keeps all its instance variables completely private. This means that it is private to the class and accessor methods are the only way in which these instance variables are exposed. Some examples of these accessor methods include:
+- `attr_writer`
+- `attr_reader`
+<br/>
+Metaprogramming is a technique common in Ruby because it means programs have the ability to treat other programs as their central points of data. In other words, programs in ruby can be generated and transformed to modify even while running. An example of this syntax is seen in this code which utilizes the `puts`, and `Begin` command. Here we can see that the `puts` command is an initiation of the main branch and `begin` will initialize the program to start. 
+<br/><br/>
+<img src="https://cdn.educba.com/academy/wp-content/uploads/2019/02/begin-1.png" alt="MSC" width="350" height="200">
+<br/><br/>
+Ruby also uses the `#` symbol to allow programmers to add comments. Comments in ruby can be added in many various ways, either in or out the scope of code. For example, a comment can be made on its own like, e.g. `# This is a comment`, or in a line of code, e.g. `name = "Bob" #This is a comment`.
+
+## Implementation
+To talk about Implementations with Ruby, we have to first mention the Matz's Ruby interpreter. This is the original Ruby interpreter that is written in C, and employs its own virtual machine specific to Ruby. The standard implementation of the retired Ruby 1.8 was also written in C as a single-pass language. Since then, Ruby 1.9 and 2.x have employed `YARV` (Yet Another Ruby VM) as official Ruby interpreter. Over the years there have been many alternate implementations which include `mruby`, `Jruby` and `Rubinius`. These all have different methods of approach in implementation, and feature the following: 
+- `Rubinius: A C++ bytecode VM that uses LLVM to compile runtime machine code`
+- `JRuby: A mixed implementation that runs on the Java Virtual Machine`
+- `mruby: An implementation designed to be embedded in C code.`
+
+## Repositories and Libraries
+The libraries in Ruby can be managed by `RubyGems`, which is essentially Ruby's package manager. Any of the packages in Ruby are called a "gem" and they can be installed through the CL. IDE's also as applications alongside libraries in Ruby. Over 10,000 Ruby gems can be found through the website [RubyGems][rubygems-io]. There are many more features included in Ruby, and Ruby can also leverage a wide set of third-party [libraries][library-io]. There are also many new libraries that can be found hosted on GitHub using the filter to sort by Ruby libraries. 
+
+
+### Learn More About Ruby
+If you are still interested in learning about high-level implementation through Ruby,  visit their [website][web-io] and stay in touch with their latest [news][news-io]. Ruby also offers a wide community and forum that allows programmers and developers to communicate with each other to post questions and answer related issues.  
+<br/><br/>
+Stay tuned for a new blog post next week!
+
+[web-io]: https://www.ruby-lang.org/en/
+[rubygems-io]: https://rubygems.org/
+[library-io]: https://www.ruby-lang.org/en/libraries/ 
+
