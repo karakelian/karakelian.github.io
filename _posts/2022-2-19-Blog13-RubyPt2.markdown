@@ -14,7 +14,7 @@ In the last blog we introduced the programming language Ruby, and went over some
 The Syntax utilized in Ruby is similar to that of Python and Perl, and the most obvious example resides in the definitions of class and methods. An important part of Ruby's syntax is that it keeps all its instance variables completely private. This means that it is private to the class and accessor methods are the only way in which these instance variables are exposed. Some examples of these accessor methods include:
 - `attr_writer`
 - `attr_reader`
-<br/>
+<br/><br/>
 Metaprogramming is a technique common in Ruby because it means programs have the ability to treat other programs as their central points of data. In other words, programs in ruby can be generated and transformed to modify even while running. An example of this syntax is seen in this code which utilizes the `puts`, and `Begin` command. Here we can see that the `puts` command is an initiation of the main branch and `begin` will initialize the program to start. 
 <br/><br/>
 <img src="https://cdn.educba.com/academy/wp-content/uploads/2019/02/begin-1.png" alt="MSC" width="350" height="200">
@@ -32,7 +32,7 @@ The libraries in Ruby can be managed by `RubyGems`, which is essentially Ruby's 
 
 
 ### Learn More About Ruby
-If you are still interested in learning about high-level implementation through Ruby,  visit their [website][web-io] and stay in touch with their latest [news][news-io]. Ruby also offers a wide community and forum that allows programmers and developers to communicate with each other to post questions and answer related issues.  
+If you are still interested in learning about high-level implementation through Ruby,  visit their [website][web-io] and stay in touch with their latest patches. Ruby also offers a wide community and forum that allows programmers and developers to communicate with each other to post questions and answer related issues.  
 <br/><br/>
 Stay tuned for a new blog post next week!
 
