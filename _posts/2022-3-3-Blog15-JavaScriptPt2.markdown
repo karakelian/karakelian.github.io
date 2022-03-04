@@ -15,7 +15,7 @@ Last time we glanced over JavaScript features such as imperative and structure p
 <br/><br/>
 That support of Delegatives is also an advanced topic in JavaScript which essentially allows objects to be evaluated as members of another original object. This is also a common element of object-oriented programming. Traits and Mixins are natively supported in this programming language, and this includes roles to be explicitly delegated, such as `apply` or `call`. Other miscellaneous advanced topics include JavaScripts run-time environment, which it relies on to support methods and objects for script interaction. Variadic functions and regular expressions are also supported by JavaScript, and vendir-specific extensions can be added on the JavaScript Engine. Some of these extensions include but are not limited to:
 - `Array Comprehensions`
-- `Concise Function Expressions, e.g. (function(args) expr)
+- `Concise Function Expressions, e.g. (function(args) expr)`
 - `ECMAScript for XML`
 - `Conditional Catch Clauses`
 - `Generator Expressions`
