@@ -1,0 +1,47 @@
+---
+layout: post
+title:  "Blog 16 - Node.js"
+date:   2022-3-8 6:15:29 -0700
+categories: Tech
+---
+## An Introduction to Node.js
+The open-source JavaScript runtime environment which operates on the V8 (JavaScript) engine and is designed to create scalable applications on networks is known as Node.js. This runtime environment allows developers to write scripts for server-side implementations using command line tools. These scripts can be employed to create dynamic web page content, and Node.js strives to unify applications on the web by having a development based around a single programming language. Node.js is also a cross-platform and event-driven architecture, which allows it to have asynchronous input and output. These features were designed with scalability in mind, in order to optimize throughput for web applications in real time. To get a better understanding of Node.js in this blog, we will briefly review its history, and touch upon its platform architecture and technical details. 
+<br/><br/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="MSC" width="350" height="200">
+<br/>
+
+## The History of Node.js
+Written in 2009 by Ryan Dahl, Node.js was developed primarily for Linux and Mac OSX operating systems. Since then, Node.js has been bolstered with package managers, and the first implementation in 2010 called `npm` was a very beneficial feature for programmers. These package managers assisted in publishing and sharing the source code of packages within Node.js. Microsoft became a partner with Joyent and released a native Windows version for Node.js, and a fully supported build was released in 2011.
+<br/><br/>
+A fork of Node.js was started in 2014, which was mainly due to Joyent's control over the runtime environment. For this reason, the fork io.js was created as an alternative to allow open governance. Since then, authors on io.js keep the environment up-to-date based on the most recent release of the JavaScript V8 Engine. After the controversy of io.js, there was an effort to form the Node.Js Foundation, and merge the io.js and Node.js communities. Node.js and io.js were successfully merged in 2015 to form the Node.js Foundation. In recent times, the Node.js Foundation has merged with the JS Foundation to create the OpenJS Foundation, which is the current community.
+
+## Platform Architecture
+The platform architecture of Node.js revolves around event-driven programming, and this feature is applied to how developers employ Node.js to web servers. Threading is not necessary for scalable server implementation when using Node.js, and developers equate this to the simplified model of callbacks in the runtime environment. Since the JavaScript V8 engine was used to build Node.js, internet features such as TCP,DNS,HTTPS are proficient within the runtime environment. Considering JavaScript has become well-known as a programming language, this element makes Node.js more accessible to the community in web development. 
+<br/><br/>
+<img src="https://litslink.com/wp-content/uploads/2021/07/Node.js-Architecture-Chart.png" alt="MSC" width="350" height="200">
+<br/>
+Stable Releases of Node.js
+- `Argon`:   Released on 09-08-2015
+- `Boron`:   Released on 04-26-2016
+- `Carbon`:  Released on 05-30-2017
+- `Dubnium`: Released on 04-24-2018
+- `Erbium`:  Released on 04-23-2019
+- `Fermium`: Released on 04-21-2020
+<br/>
+The current stable version of Node.js is:
+- `Gallium`: Released on 04-20-2021
+
+## Technical Details & Disadvantages
+Node.js provides many features with technical details that include but are not limited to: Internals, Package Management, V8, Event Loop, and etc. Internals refer to the use of `libuv` in Node.js, which is used to handle events that are asynchronous. It also acts as an abstraction layer between the file system and networks on POSIX systems. These systems include Linux, OSS, Unix, and macOS. Threading is the operation in which the design of a single thread employs callbacks. These use a fixed-size pool which can handle non-blocking input and output operations that are asynchronous. V8 refers to teh JavaScript engine which is deployed for execution. Initially developed for Google Chrome and written in C++, it compiles JavaScript source code to have native code at runtime. Package Management refers to the `npm`, and pre-installed package managers on the Node.js platform. Event loop accompanies the small heap allocation within Node.js, which employs event loops for scalability, rather than threads or processes.
+
+## Disadvantages of Node.js
+Bottleneck in performance is common in Node.js because of heavy computation tasks. Since CPU bound tasks are not properly processed with Node.js, heavy requests can cause slow processing and delays in event loops. Moreover, Tooling in the npm registry are not as advanced as other features in the runtime environment. Many developers attribute this to the Joyent community that operates the Node.js ecosystem. Nevertheless, Node.js is still a prominent runtime environment in the world of programming and computing, and remains a valuable asset for programmers. To read more about the pros and cons of Node.js visit [altexsoft][disadvantage-io].
+
+### Learn More About Node.js
+This weeks blog reviewed Node.js and its features, and there is a chance we may revisit the topic in a future blog to go more in-depth with implementations. To learn more about Node.js visit their [website][web-io] and stay updated with the latest news/updates. Getting involved with the Node.js [community][learn-io] is also a great way to ask questions and participate in forum discussions with other developers/programmers. 
+<br/><br/>
+Stay tuned for a new blog post next week!
+
+[web-io]: https://nodejs.org/en/
+[learn-io]: https://nodejs.org/en/get-involved/ 
+[disadvantage-io]: https://www.simform.com/blog/nodejs-advantages-disadvantages/
