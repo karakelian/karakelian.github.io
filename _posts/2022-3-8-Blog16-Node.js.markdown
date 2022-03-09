@@ -29,13 +29,13 @@ Stable Releases of Node.js
 - `Fermium`: Released on 04-21-2020
 <br/>
 The current stable version of Node.js is:
-- `Gallium`: Released on 04-20-2021
+`Gallium`: Released on 04-20-2021
 
 ## Technical Details & Disadvantages
 Node.js provides many features with technical details that include but are not limited to: Internals, Package Management, V8, Event Loop, and etc. Internals refer to the use of `libuv` in Node.js, which is used to handle events that are asynchronous. It also acts as an abstraction layer between the file system and networks on POSIX systems. These systems include Linux, OSS, Unix, and macOS. Threading is the operation in which the design of a single thread employs callbacks. These use a fixed-size pool which can handle non-blocking input and output operations that are asynchronous. V8 refers to teh JavaScript engine which is deployed for execution. Initially developed for Google Chrome and written in C++, it compiles JavaScript source code to have native code at runtime. Package Management refers to the `npm`, and pre-installed package managers on the Node.js platform. Event loop accompanies the small heap allocation within Node.js, which employs event loops for scalability, rather than threads or processes.
 
 ## Disadvantages of Node.js
-Bottleneck in performance is common in Node.js because of heavy computation tasks. Since CPU bound tasks are not properly processed with Node.js, heavy requests can cause slow processing and delays in event loops. Moreover, Tooling in the npm registry are not as advanced as other features in the runtime environment. Many developers attribute this to the Joyent community that operates the Node.js ecosystem. Nevertheless, Node.js is still a prominent runtime environment in the world of programming and computing, and remains a valuable asset for programmers. To read more about the pros and cons of Node.js visit [altexsoft][disadvantage-io].
+Bottleneck in performance is common in Node.js because of heavy computation tasks. Since CPU bound tasks are not properly processed with Node.js, heavy requests can cause slow processing and delays in event loops. Moreover, Tooling in the npm registry are not as advanced as other features in the runtime environment. Many developers attribute this to the Joyent community that operates the Node.js ecosystem. Nevertheless, Node.js is still a prominent runtime environment in the world of programming and computing, and remains a valuable asset for programmers. To read more about the pros and cons of Node.js visit [altexsoft][site-io].
 
 ### Learn More About Node.js
 This weeks blog reviewed Node.js and its features, and there is a chance we may revisit the topic in a future blog to go more in-depth with implementations. To learn more about Node.js visit their [website][web-io] and stay updated with the latest news/updates. Getting involved with the Node.js [community][learn-io] is also a great way to ask questions and participate in forum discussions with other developers/programmers. 
@@ -44,4 +44,4 @@ Stay tuned for a new blog post next week!
 
 [web-io]: https://nodejs.org/en/
 [learn-io]: https://nodejs.org/en/get-involved/ 
-[disadvantage-io]: https://www.simform.com/blog/nodejs-advantages-disadvantages/
+[site-io]: https://www.altexsoft.com/blog/engineering/the-good-and-the-bad-of-node-js-web-app-development/
