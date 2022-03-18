@@ -18,7 +18,7 @@ Angular has a specific naming convention due to the history of AngularJS. Since 
 - `Version 9`:  Smaller bundle sizes, better debugging and type checking. Renewed build errors, and improved build times and internationalization.
 - `Version 10`: CommonJS import warnings, Optional Strict Settings, Default Browser Configuration, Removals and Deprecations.
 <br/>
-The current working version of angular is version 13, and also referred to as "Angular 13".
+`The current working version of angular is version 13, and also referred to as "Angular 13"`
 <br/><br/>
 The major releases listed above as well as the yearly version releases stay supported for 18 months, which consist of active support through 6 months. This includes updates and patches, and then 12-months of long term support for Angular which focuses on significant or critical fixes.
 
@@ -34,7 +34,7 @@ Some advantages of Angular are its Enhanced Design Architecture and Modules. Its
 Noted disadvantages with Angular include a Steep Learning Curve and Limited SEO Options. Although programmers who are well versed with Angular can hop in most collaborations when they are in progress, getting strated with the web application is not as easy. When compared to Vue or React, Angular has a steeper learning curve due to the array of large topics that must be covered to have a fundamental knowledge of basic concepts. SEO options are also limited along with poor accessibility for resources through search engines in Angular.
 
 ### Learn More About Angular 
-To learn more about Angular visit their [website][web-io] and stay updated with the latest news/updates. Getting involved with Angular and learning new concepts can be started from their [resources][resources-io] page. The Angular [blog][blog-io] is also a great way to stay in touch with the Angular community and learn about new developments in the real-world that employ Angular for their web applications. 
+To learn more about Angular visit their [website][web-io] and stay updated with the latest news/updates. Getting involved with Angular and learning new concepts can be started from their [resources][resources-io] page. The [Angular Blog][blog-io] is also a great way to stay in touch with the Angular community and learn about new developments in the real-world that employ Angular for their web applications. 
 <br/><br/>
 Stay tuned for a new blog post next week!
 
