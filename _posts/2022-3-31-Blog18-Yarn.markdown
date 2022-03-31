@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Blog 18 - Yarn"
+date:   2022-3-31 7:15:29 -0700
+categories: Tech
+---
+## Yarn: An Introduction 
+The software packaging system that was developed by Facebook in 2016 is called Yarn. This software packaging system was primarily designed for the Node.js JavaScript runtime environment, and Yarn provides stability, security and speed. This is also an alternative to the Node Package Manager, commonly referred to as npm. Yarn was also a collaborative effort on part of Google, Exponent, Tilde and Facebook to answer the problems faced regarding performance. Yarn would then be created to tackle security and consistency issues that arose within large codebases within Facebook. To review Yarn in this blog post, we will be covering the software packaging systems functionality, advantages and disadvantages, and its publishing packages.
+<br/><br/>
+<img src="https://classic.yarnpkg.com/assets/og_image.png" alt="MSC" width="350" height="200">
+<br/>
+
+## Functionality 
+Yarn's functionality is tied to its plug-in compatibilities, which allow it to extend its core-features and initiate better structured work-flows with its use. Its functionality is noted for allowing default plugins that are made available to all users, as well as user-created plugins which allows developers and programmers to add in their own plugin features. To review Yarn's functionality features, we will now list some of the significant features that allow it to be a successful software packaging system.
+
+- `Plugins`: The plugins as we just discussed allow users to extend the features in yarn, and plugins can also add linkers, commands, new resolvers and etc. These are mostly utilized through preinstalled plugins in yarn such as `yarn add` and `yarn install`.
+- `Constraints`: Constraints in Yarn allow the software to enforce rules automatically regarding fields and dependencies. This can spawn global scoped workspaces, and makes it easy to set points of rules and boundaries. 
+- `Protocols`: Users can define protocols in Yarn to be used in resolving certain packages. SOme of these protocols include Git repository commands, and other `semver` protocols, that can be used when installing a new packages
+- `Zero-Installs`: Zero Installs allow the installation of packages when they are required to install after code has been fetched to the local repository.
+- `Workspaces`: Workspaces in Yarn allow multiple projects to function within the same repository. They also can apply changes automatically to other relatives during modification of source code. This will allow `yarn install` to install all of the packages in one pass.
+<br/>
+
+## Yarn: Advantages and Disadvantages
+There are many advantages in Yarn due to its functional core-features that allow developer driven modification. Some of these advantages include installing packages from local cache. This allows Yarn to not have to connect to networks that require installation from their separate cache's. Yarn allows strongly binding of package versions, and also allows multiple packages to be installed simultaneously. This type of install, referred to as `parallel install` is a big advantage of Yarn's functionality with package management. Furthermore, Yarn installs packages in parallel while npm installs a package at a time, which gives it a speed advantage. 
+<br/><br/>
+Although Yarn has a lot of significant advantages as a software packaging tool, some of its disadvantages include not having support for previous versions of Node.js. The EOL boundary for Yarn means that there are only certain versions that allow compatible function with regards to Node.js. Yarn also does not work properly on native modules, which can be a big disadvantage for developers and programmers that rely on them.
+<img src="https://phoenixnap.com/kb/wp-content/uploads/2021/11/yarn-vs-npm-03-feature-overview.png" alt="MSC" width="350" height="200">
+<br/>
+
+## Publishing Packages
+Publishing packages in Yarn means that developers and programmers can share packages with others around the world. This is made possible through the `npm registry`, which allows global distribution of packages. A user must first create an npm account and login by using `yarn login` on the command line. They can then publish components for npm packages. When all the code has been written for the package, the user can test it to make sure they are ready to publish. By typing `yarn publish` in the command line, the code is then entered into your user repository and is ready for sharing across global servers.
+
+### Learn More About Yarn
+To learn more about Yarn visit their [website][web-io], which hosts a variety of getting started pages and features. The [getting started][started-io] page offers new users the ability to ask questions and learn how to install Yarn, as well as introduce its usage. Yarn also has a strong community on [dev forums][community-io] that allows developers and programmers alike to communicate with each other and solve current issues or discuss their implementations. 
+<br/><br/>
+Stay tuned for a new blog post next week!
+
+[web-io]: https://yarnpkg.com/
+[started-io]: https://yarnpkg.com/getting-started
+[community-io]: https://dev.to/t/yarn
