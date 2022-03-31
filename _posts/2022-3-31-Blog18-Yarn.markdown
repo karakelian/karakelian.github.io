@@ -24,6 +24,7 @@ Yarn's functionality is tied to its plug-in compatibilities, which allow it to e
 There are many advantages in Yarn due to its functional core-features that allow developer driven modification. Some of these advantages include installing packages from local cache. This allows Yarn to not have to connect to networks that require installation from their separate cache's. Yarn allows strongly binding of package versions, and also allows multiple packages to be installed simultaneously. This type of install, referred to as `parallel install` is a big advantage of Yarn's functionality with package management. Furthermore, Yarn installs packages in parallel while npm installs a package at a time, which gives it a speed advantage. 
 <br/><br/>
 Although Yarn has a lot of significant advantages as a software packaging tool, some of its disadvantages include not having support for previous versions of Node.js. The EOL boundary for Yarn means that there are only certain versions that allow compatible function with regards to Node.js. Yarn also does not work properly on native modules, which can be a big disadvantage for developers and programmers that rely on them.
+<br/><br/>
 <img src="https://phoenixnap.com/kb/wp-content/uploads/2021/11/yarn-vs-npm-03-feature-overview.png" alt="MSC" width="350" height="200">
 <br/>
 
