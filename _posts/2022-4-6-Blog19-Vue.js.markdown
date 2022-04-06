@@ -38,6 +38,6 @@ To learn more about Vue.js visit their [website][web-io], to navigate technical 
 <br/><br/>
 Stay tuned for a new blog post next week!
 
-[web-io]: https://yarnpkg.com/
+[web-io]: https://vuejs.org/
 [git-io]: https://github.com/vuejs/vue
 [tutorial-io]: https://vuejs.org/tutorial/#step-1
