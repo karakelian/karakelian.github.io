@@ -1,0 +1,39 @@
+---
+layout: post
+title:  "Blog 20 - NuGet"
+date:   2022-4-16 7:15:29 -0700
+categories: Tech
+---
+## NuGet: An Introduction 
+NuGet is essentially a package manager that was designed with the notion for developers to enable the sharing of reusable code among other developers. It was developed at Microsoft, with the .Net Foundation and its initial released was in October of 2010. Since then, it has boasted many stable release versions, and the latest is version 6.1 that was deployed on February of 2022. An important aspect of NuGet is that it is an essential tool which contains "packages" which are bundled compiled code, along with DLL's and other elements of code. The packages often are located inside a single ZIP file, and utilize the `.nupkg` extension. To become a bit more familiar with NuGet, in this blog we will be reviewing its  Package Targeting, NuGet Tools, and overview of processes. 
+<br/><br/>
+<img src="https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png" alt="MSC" width="350" height="200">
+<br/>
+
+## NuGet: Package Targeting and Compatibility
+Packages can be referred to as "compatible" when they contain assemblies that are designed for a target at minimum, which related to .Net framework targets. These packages can be created by developers for specific frameworks that can operate with UWP controls so they have a wide support of target ranges. Moreover, this becomes an efficient process for consumers and creators as the single package method will work for all projects. Other devs that might look to employ API's outside of .Net can rely on separate assemblies which can be created for different target frameworks. Anytime a consumer will install a NuGet pacakge, it only extracts necessary assemblies that will be produced by the project. 
+
+## NuGet: Tools
+Tools in NuGet are used in addition to support, as NuGet provides a variety of tool options for creators and consumers.
+><br/>
+These are just some of the tools used in Nuget:
+- `Package Manager Console`: This tool runs on the Visual Studio platform on Windows, and it is mainly used on the consumption side of development. The Package Manager Console focuses on prvoiding PowerShell commands when managing packages and installing them in Visual Studio for project implementation.
+- `MSBuild`: This tool also runs on the Windows platform and its purpose relates to creation for packages. MSBuild provides developers with the ability to restore/create packages used in the tool chain, related directly through MSBuild. 
+- `dotnet CLI`: Running on all platforms, this tool functions in the creation/consumption scenario and is a tool for the .NET Framework libraries. This tools primary function is to provide NuGet capabilities with specific package commands, which can apply to either consumer or creator. These packages employ commands such as `nuget pack` or `nuget install` to inclue packages and create them from various related files and assemblies. This tool does not interact with V.S. studio as it is platform-agnostic. 
+<br/><br/>
+<img src="https://www.rlogical.com/wp-content/uploads/2021/05/23f-1024x538.png" alt="MSC" width="350" height="200">
+<br/>
+
+## NuGet: Overview
+As stated in the introduciton, NuGet is basically a package manager for developers, but its important to note it as initially distributed as a Visual Studio extension. NuGet's client, `nuget.exe`, operates as a open-source command line app that is completely free. It can be used to create and consume packages, and processes such as `MSBuild` and `.NET core SDK` can also use NuGet. NuGet is a powerful package manager due to its background optimizations that allow a package cache and golbal packages for folder to shortcut install/reinstalls. NuGet also allows the managing of overall depency graphs, and maintains specifications to how its packages can be composed and referenced. This allows to to provide APIs streamlined services, especially for developers that rely on Visual Studio projects and extensions. 
+<br/><br/>
+Managing dependencies is a significant part of NuGet's function as it acts as a management system. Since projects move freely between developers and build servers, it is not practical to keep binary assemblies bound to projects when employing NuGet. For this reason, NuGet makes it easy to maintain a reference list of the packages, which allows it to record package identifiers and version numbers. This also means that NuGet can restore or install these packages from public or prviate hosts whenever required. 
+
+### Learn More About NuGet
+To learn more about NuGet visit their [website][web-io], to navigate Packages and Documentation. The NuGet [blog][blog-io] includes an introduction as well as the most essential package introduction and tutorials to get started with NuGet. The NuGet [stats][stats-io] page also offers an interesting look into the statistics of NuGet including package downloads, versions, client usage, and a lot more interesting real-time information about the package manager. 
+<br/><br/>
+Stay tuned for a new blog post next week!
+
+[web-io]: https://www.nuget.org/
+[blog-io]: https://devblogs.microsoft.com/nuget/
+[stats-io]: https://www.nuget.org/stats
