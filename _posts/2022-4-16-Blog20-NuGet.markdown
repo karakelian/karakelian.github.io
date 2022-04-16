@@ -7,7 +7,7 @@ categories: Tech
 ## NuGet: An Introduction 
 NuGet is essentially a package manager that was designed with the notion for developers to enable the sharing of reusable code among other developers. It was developed at Microsoft, with the .Net Foundation and its initial released was in October of 2010. Since then, it has boasted many stable release versions, and the latest is version 6.1 that was deployed on February of 2022. An important aspect of NuGet is that it is an essential tool which contains "packages" which are bundled compiled code, along with DLL's and other elements of code. The packages often are located inside a single ZIP file, and utilize the `.nupkg` extension. To become a bit more familiar with NuGet, in this blog we will be reviewing its  Package Targeting, NuGet Tools, and overview of processes. 
 <br/><br/>
-<img src="https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png" alt="MSC" width="350" height="200">
+<img src="https://raw.githubusercontent.com/NuGet/Home/dev/meta/resources/nuget.png" alt="MSC" width="300" height="150">
 <br/>
 
 ## NuGet: Package Targeting and Compatibility
@@ -15,13 +15,13 @@ Packages can be referred to as "compatible" when they contain assemblies that ar
 
 ## NuGet: Tools
 Tools in NuGet are used in addition to support, as NuGet provides a variety of tool options for creators and consumers.
-><br/>
-These are just some of the tools used in Nuget:
+<br/><br/>
+These are just some of the tools used in NuGet:
 - `Package Manager Console`: This tool runs on the Visual Studio platform on Windows, and it is mainly used on the consumption side of development. The Package Manager Console focuses on prvoiding PowerShell commands when managing packages and installing them in Visual Studio for project implementation.
 - `MSBuild`: This tool also runs on the Windows platform and its purpose relates to creation for packages. MSBuild provides developers with the ability to restore/create packages used in the tool chain, related directly through MSBuild. 
 - `dotnet CLI`: Running on all platforms, this tool functions in the creation/consumption scenario and is a tool for the .NET Framework libraries. This tools primary function is to provide NuGet capabilities with specific package commands, which can apply to either consumer or creator. These packages employ commands such as `nuget pack` or `nuget install` to inclue packages and create them from various related files and assemblies. This tool does not interact with V.S. studio as it is platform-agnostic. 
 <br/><br/>
-<img src="https://www.rlogical.com/wp-content/uploads/2021/05/23f-1024x538.png" alt="MSC" width="350" height="200">
+<img src="https://docs.microsoft.com/en-us/nuget/media/dependency-graph.png" alt="MSC" width="350" height="200">
 <br/>
 
 ## NuGet: Overview
