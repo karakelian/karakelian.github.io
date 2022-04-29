@@ -30,7 +30,7 @@ Advantages of Bootstrap include time consumption, as Bootstrap has great documen
 Some of the disadvantages of Bootstrap include a style overrides. This is mainly due to SASS file compiling errors. This also can lead to developers creating bland interfaces as more work and time needs to go in further customization each page to steer away from the `default` style that Bootstrap offers. There is also a slight learning curve that may be difficult for new developers to grasp when first starting off. 
 
 ### Learn More About Bootstrap
-To learn more about Bootstrap visit their [website][web-io], to navigate blogs, docs, and examples of its implementation. The Bootstrap [themes][learn-io] page includes the most recently added themes to Bootstrap that can help get started with customizing a website with your own style in mind. The Bootstrap [examples][examples-io] also offers a way for users to quickly get started with a project with examples using parts of the framework for custom layouts and components. 
+To learn more about Bootstrap visit their [website][web-io], to navigate blogs, docs, and examples of its implementation. The Bootstrap [themes][theme-io] page includes the most recently added themes to Bootstrap that can help get started with customizing a website with your own style in mind. The Bootstrap [Examples][examples-io] also offers a way for users to quickly get started with a project with examples using parts of the framework for custom layouts and components. 
 <br/><br/>
 Stay tuned for a new blog post next week!
 
