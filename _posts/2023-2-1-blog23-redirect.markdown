@@ -1,7 +1,6 @@
 ---
 layout: redirected
 sitemap: false
-permalink:
 redirect_to: https://google.com/
 ---
 ## Vue.js: An Introduction 
