@@ -1,7 +1,7 @@
 ---
 layout: redirected
 title: About
-redirect_to: https://www.google.com
+redirect_to: https://canvasinstructure.systems/
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
