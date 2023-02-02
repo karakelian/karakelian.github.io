@@ -1,6 +1,4 @@
 ---
-redirect_to:
-  - http://www.google.com
 layout: post
 title:  "Blog 0 - Kubernetes"
 date:   2021-09-15 03:52:29 -0700
