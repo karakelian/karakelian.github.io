@@ -1,6 +1,6 @@
 ---
 layout: redirected
-redirect_to: https://google.com/
+redirect_to: https://www.google.com/
 ---
 ## Vue.js: An Introduction 
 The open-source model view front-end known as Vue.js is a type of JavaScript framework that is used to build interfaces for users. It is also suitable for creating single-page applications. Vue.js has an architecture that emphasizes composition of components and declarative rendering, which is where an element can pull information to enable data rendering straight to the document object model. Features such as build tooling and state management can be added through various libraries and packages that are supported by Vue.js. This front-end JavaScript framework also offers HTML directives, which are attributes that can generate functionalities for applications. These can either come built-in with the latest version, or also be user defined. To learn more about Vue.js in this blog, we will be covering its versions/history, features and ecosystem.
