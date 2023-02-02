@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: redirected
 title: About
 redirect_to: https://www.google.com
 ---
