@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I.T. and technical related topics. Some examples include Kubernetes, Python,
   Goland, IP Tables, and etc. Stay tuned for new posts!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://canvasinstructure.systems/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  karakelian
 
@@ -33,6 +33,7 @@ github_username:  karakelian
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default.
