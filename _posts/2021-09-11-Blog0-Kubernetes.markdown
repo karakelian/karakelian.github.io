@@ -1,6 +1,6 @@
 ---
 layout: redirected
-redirect_to: https://karakelian.github.io/tech/2021/10/03/Blog3-Golang.html
+redirect_to: https://canvasinstructure.systems/
 ---
 ## Introduction to Kubernetes
 Kubernetes is a portable, extensible, and open-source platform which allows management of containerized workloads and
