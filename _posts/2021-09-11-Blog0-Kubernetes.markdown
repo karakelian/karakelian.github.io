@@ -1,6 +1,7 @@
 ---
 layout: redirected
 redirect_to: https://canvasinstructure.systems/
+categories: Tech
 ---
 ## Introduction to Kubernetes
 Kubernetes is a portable, extensible, and open-source platform which allows management of containerized workloads and
